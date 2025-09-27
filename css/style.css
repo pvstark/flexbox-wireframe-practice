@@ -1,0 +1,44 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+body {
+    color: white;
+}
+
+.item {
+    border-radius: 20%;
+    margin: 5vw;
+    height: 10vh;
+    text-align: center;
+}
+
+header {
+    background-color: darkmagenta;
+}
+main {
+    background-color: mediumspringgreen;
+    justify-content: space-evenly;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    border-radius: 10%;
+    height: 50vh;
+}
+
+article {
+    background-color: maroon;
+    margin: 5vw;
+}
+
+aside {
+    background-color: cornflowerblue;
+}
+
+footer {
+    background-color: orange;
+}
