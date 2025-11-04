@@ -12,7 +12,7 @@ body {
 }
 
 .item {
-    border-radius: 20%;
+    border-radius: 20px;
     margin: 5vw;
     height: 10vh;
     text-align: center;
@@ -26,7 +26,7 @@ main {
     justify-content: space-evenly;
     margin-left: 10vw;
     margin-right: 10vw;
-    border-radius: 10%;
+    border-radius: 20px;
     height: 50vh;
 }
 
@@ -41,4 +41,35 @@ aside {
 
 footer {
     background-color: orange;
+}
+
+@media (min-width: 769px){
+    .container{
+        display: flex;
+        flex-direction: row-reverse;
+        flex-wrap: wrap;
+        align-content: space-evenly;
+        padding: 2px;
+    }
+
+    .item{
+        margin: 2px;
+        padding: 2px;
+    }
+
+    header, footer{
+        flex-basis:100%;
+    }
+    
+    main {
+        flex-basis:50%;
+        align-content: center;
+        justify-content: center;
+    }
+
+    aside{
+        flex-basis: 25%;
+        min-height:300px;
+    }
+
 }
